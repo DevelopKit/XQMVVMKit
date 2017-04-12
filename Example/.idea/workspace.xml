@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d9b876e-f3fd-41d8-96fb-5a10ffecd0e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewAgent.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewAgent.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewAgentProtocol.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIStoryboard+MVVM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIStoryboard+MVVM.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIViewController+MVVM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIViewController+MVVM.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewModel/XQViewModel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewModel/XQViewModel.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../XQMVVMKit/Classes/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../XQMVVMKit/Classes/ReplaceMe.m" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/XQMVVMKit/XQViewController.h" afterPath="$PROJECT_DIR$/XQMVVMKit/XQMainViewController.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/XQMVVMKit/XQViewController.m" afterPath="$PROJECT_DIR$/XQMVVMKit/XQMainViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XQMVVMKit.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/XQMVVMKit.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../XQMVVMKit.podspec" afterPath="$PROJECT_DIR$/../XQMVVMKit.podspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m" afterPath="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +22,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_8d1485d56acc15868861b5386c5f6e5eff4c71ab" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UIViewController+MVVM.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UIViewController+MVVM.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIViewController+MVVM.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="220">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XQController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XQController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIView+MVVM.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIView+MVVM.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,12 +102,10 @@
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewModel/XQContainerViewModelProtocol.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/XQViewControllerProtocol.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewConfig.h" />
-        <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQView.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIStoryboard+MVVM.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIStoryboard+MVVM.m" />
         <option value="$PROJECT_DIR$/XQMVVMKit/XQViewController.h" />
-        <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQMVVMView.m" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQMVVMView.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/XQViewController.h" />
@@ -92,6 +117,10 @@
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIViewController+MVVM.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewAgent.h" />
         <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewAgent.m" />
+        <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m" />
+        <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h" />
+        <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.h" />
+        <option value="$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.m" />
       </list>
     </option>
   </component>
@@ -102,8 +131,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="373" />
-    <option name="y" value="23" />
+    <option name="x" value="730" />
+    <option name="y" value="136" />
     <option name="width" value="1629" />
     <option name="height" value="1045" />
   </component>
@@ -329,15 +358,15 @@
       <workItem from="1490758913975" duration="5154000" />
       <workItem from="1490766948412" duration="6938000" />
       <workItem from="1491023516828" duration="13125000" />
-      <workItem from="1491976900596" duration="5393000" />
+      <workItem from="1491976900596" duration="6871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37343000" />
+    <option name="totallyTimeSpent" value="38821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="373" y="23" width="1629" height="1045" extended-state="0" />
+    <frame x="730" y="136" width="1629" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -373,24 +402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQViewConfigProtocol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="e#38#71#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/ViewConfig/XQMVVMViewConfig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQMVVMView.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -593,14 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStoryboard.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -643,16 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#72#95#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/XQMVVMView.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -690,7 +683,7 @@
         <state relative-caret-position="427">
           <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
-            <element signature="e#38#66#0" expanded="true" />
+            <element signature="e#38#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -745,8 +738,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/ViewController/UIViewController+MVVM.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="220">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/Controller/XQController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XQMVVMKit/Classes/View/UIView+MVVM.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -21,6 +21,9 @@
 //如果view继承自XQView，则不用担心循环引用问题；否则必须注意循环引用
 @property(nonatomic, copy) void (^eventBlock)(NSString *identifier, id userInfo);
 
+- (void)setupData:(void(^)(__kindof UIView *))block;
+- (void)setupView:(void(^)(__kindof UIView *))block;
+
 @end
 
 @interface UIView (StyleExtension)

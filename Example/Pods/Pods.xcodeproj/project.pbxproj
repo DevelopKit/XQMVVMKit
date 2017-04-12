@@ -132,6 +132,8 @@
 		855B642E1E8F83150061EC1E /* XQViewAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 855B642C1E8F83150061EC1E /* XQViewAgent.h */; };
 		855B642F1E8F83150061EC1E /* XQViewAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B642D1E8F83150061EC1E /* XQViewAgent.m */; };
 		855B64331E8FA1960061EC1E /* XQViewAgentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 855B64321E8FA1960061EC1E /* XQViewAgentProtocol.h */; };
+		855B65D21E9E2D360061EC1E /* XQController.h in Headers */ = {isa = PBXBuildFile; fileRef = 855B65D01E9E2D360061EC1E /* XQController.h */; };
+		855B65D31E9E2D360061EC1E /* XQController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B65D11E9E2D360061EC1E /* XQController.m */; };
 		856978638AE09F1C3D2E824A79C7E1DE /* RACGroupedSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA64951BFE7F90B866C54144B32F4E /* RACGroupedSignal.m */; };
 		87126AA5F1502231FFEC38037D538E60 /* RACSignalSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A45C52852CABA102B200CB4959AC2B /* RACSignalSequence.m */; };
 		87FF106BA07B4B194546B9C5A3B8917C /* RACStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F6DD5CD3B37109506449A5DC28E7B /* RACStream.m */; };
@@ -387,6 +389,8 @@
 		855B642C1E8F83150061EC1E /* XQViewAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQViewAgent.h; sourceTree = "<group>"; };
 		855B642D1E8F83150061EC1E /* XQViewAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQViewAgent.m; sourceTree = "<group>"; };
 		855B64321E8FA1960061EC1E /* XQViewAgentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQViewAgentProtocol.h; sourceTree = "<group>"; };
+		855B65D01E9E2D360061EC1E /* XQController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQController.h; sourceTree = "<group>"; };
+		855B65D11E9E2D360061EC1E /* XQController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQController.m; sourceTree = "<group>"; };
 		8620105E1F25CAF0A317977B8D85B621 /* NSInvocation+RACTypeParsing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+RACTypeParsing.m"; path = "ReactiveObjC/NSInvocation+RACTypeParsing.m"; sourceTree = "<group>"; };
 		87D246FA8D025868FED96B9BC4A40CBF /* RACIndexSetSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACIndexSetSequence.m; path = ReactiveObjC/RACIndexSetSequence.m; sourceTree = "<group>"; };
 		87E038BBB7F0A53ECF87700FCAAAE99A /* RACEmptySignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySignal.m; path = ReactiveObjC/RACEmptySignal.m; sourceTree = "<group>"; };
@@ -603,6 +607,7 @@
 		6978126462B599994CFC9940D07C0042 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				855B65CF1E9E2D210061EC1E /* Controller */,
 				C63C678FC002B03F54A075D2E8A0AA04 /* View */,
 				15D60C23550B32B4902C3221682450F9 /* ViewConfig */,
 				3FF7ECE3F3EB58ED6AA2735ED0749CEA /* ViewController */,
@@ -827,6 +832,15 @@
 			);
 			name = XQMVVMKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		855B65CF1E9E2D210061EC1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				855B65D01E9E2D360061EC1E /* XQController.h */,
+				855B65D11E9E2D360061EC1E /* XQController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		8806EFB16B8DBF24EE3D6260635C8A99 /* Pods-XQMVVMKit_Tests */ = {
@@ -1077,6 +1091,7 @@
 				855B64261E8F6E750061EC1E /* UIView+MVVM.h in Headers */,
 				85491C5E1E8B6850000C6893 /* UIViewController+MVVM.h in Headers */,
 				855B642E1E8F83150061EC1E /* XQViewAgent.h in Headers */,
+				855B65D21E9E2D360061EC1E /* XQController.h in Headers */,
 				855B642A1E8F78930061EC1E /* XQView.h in Headers */,
 				63BB1F57D77D99AAD0769885 /* UIStoryboard+MVVM.h in Headers */,
 			);
@@ -1310,6 +1325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				855B64271E8F6E750061EC1E /* UIView+MVVM.m in Sources */,
+				855B65D31E9E2D360061EC1E /* XQController.m in Sources */,
 				85491C5F1E8B6850000C6893 /* UIViewController+MVVM.m in Sources */,
 				855B642F1E8F83150061EC1E /* XQViewAgent.m in Sources */,
 				AD36170416656BF7862C5255C95F3868 /* Pods-XQMVVMKit_Example-dummy.m in Sources */,

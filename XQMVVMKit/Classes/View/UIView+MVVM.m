@@ -29,6 +29,16 @@
     return objc_getAssociatedObject(self, _cmd);
 }
 
+- (void)setupData:(void (^)(__kindof UIView *))block {
+    NSParameterAssert(block != nil);
+    block(self);
+}
+
+- (void)setupView:(void (^)(__kindof UIView *))block {
+    NSParameterAssert(block != nil);
+    block(self);
+}
+
 @end
 
 @interface UIView (_addStyle)
