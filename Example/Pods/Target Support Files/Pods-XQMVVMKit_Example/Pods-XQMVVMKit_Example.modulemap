@@ -1,0 +1,6 @@
+framework module Pods_XQMVVMKit_Example {
+  umbrella header "Pods-XQMVVMKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

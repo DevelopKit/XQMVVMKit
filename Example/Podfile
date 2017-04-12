@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XQMVVMKit_Example' do
+  pod 'XQMVVMKit', :path => '../'
+
+  target 'XQMVVMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

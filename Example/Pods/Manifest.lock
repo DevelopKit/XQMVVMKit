@@ -1,0 +1,19 @@
+PODS:
+  - ReactiveObjC (2.1.2)
+  - XQMVVMKit (0.1.0):
+    - ReactiveObjC
+
+DEPENDENCIES:
+  - XQMVVMKit (from `../`)
+
+EXTERNAL SOURCES:
+  XQMVVMKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  XQMVVMKit: 8afc641debf5de248eb27e97c58abb09cce0a1e2
+
+PODFILE CHECKSUM: 4e36c1922d862b7a76c278593b14a26affd388be
+
+COCOAPODS: 1.2.0

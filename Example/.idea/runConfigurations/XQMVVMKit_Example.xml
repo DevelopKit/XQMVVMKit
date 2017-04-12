@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="XQMVVMKit-Example" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="XQMVVMKit" TARGET_NAME="XQMVVMKit_Example" CONFIG_NAME="Debug" SCHEME_NAME="XQMVVMKit-Example" RUN_TARGET_PROJECT_NAME="XQMVVMKit" RUN_TARGET_NAME="XQMVVMKit_Example" MAKE_ACTIVE="TRUE">
+    <envs />
+    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>

@@ -1,0 +1,27 @@
+{
+  "name": "XQMVVMKit",
+  "version": "0.1.0",
+  "summary": "A short description of XQMVVMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qiang zhai/XQMVVMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiang zhai": "zq4950411@163.com"
+  },
+  "source": {
+    "git": "https://github.com/qiang zhai/XQMVVMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XQMVVMKit/Classes/**/*",
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ]
+  }
+}
